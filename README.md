@@ -134,20 +134,6 @@ and start using the extension.
 - Voice Input Support
 - Multiple AI Models
 - Settings Page for API Keys
-
----
-
-## 👨‍💻 Author
-
-**Soubhagya Kumar Behera**
-
-MCA Student | Java Full Stack Developer | AI Enthusiast
-
-* GitHub: https://github.com/soubhagya-behera
-* LinkedIn: https://www.linkedin.com/in/soubhagyakumar-java
-* Portfolio: https://soubhagya-portfolio-olive.vercel.app
----
-
 ## ⭐ Support
 
 If you found this project useful, consider giving it a star ⭐ on GitHub.
