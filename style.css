@@ -1,0 +1,197 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  width:400px;
+  min-height:500px;
+  background:#0f172a;
+  color:white;
+  font-family:Arial, sans-serif;
+}
+
+.container{
+  padding:20px;
+}
+
+.header{
+  text-align:center;
+  margin-bottom:12px;
+}
+
+.header h2{
+  font-size:26px;
+  margin-bottom:5px;
+}
+
+.header p{
+  color:#94a3b8;
+  font-size:14px;
+}
+
+textarea{
+  width:100%;
+  height:80px;
+  padding:12px;
+  border:none;
+  outline:none;
+  border-radius:12px;
+  resize:none;
+  background:#1e293b;
+  color:white;
+  font-size:14px;
+}
+
+textarea::placeholder{
+  color:#94a3b8;
+}
+
+.btn-group{
+  margin-top:10px;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+  font-size:15px;
+  font-weight:bold;
+  transition:.3s;
+}
+
+#askBtn{
+  background:#3b82f6;
+  color:white;
+}
+
+#summaryBtn{
+  background:#10b981;
+  color:white;
+}
+
+#clearBtn{
+  background:#ef4444;
+  color:white;
+}
+
+button:hover{
+  transform:translateY(-2px);
+}
+
+#chatContainer{
+  margin-top:12px;
+  background:#1e293b;
+  padding:15px;
+  border-radius:12px;
+  min-height:180px;
+  max-height:400px;
+  overflow-y:auto;
+}
+
+.footer{
+  text-align:center;
+  color:#94a3b8;
+  font-size:12px;
+  margin-top:15px;
+  padding-bottom:10px;
+}
+
+.loading{
+  text-align:center;
+  font-size:16px;
+  padding:20px;
+  animation:pulse 1s infinite;
+}
+
+.message{
+  margin-bottom:15px;
+}
+
+.user{
+  background:#2563eb;
+  border-left:4px solid #93c5fd;
+  padding:12px;
+  border-radius:12px;
+  margin-bottom:8px;
+  font-size:14px;
+  font-weight:600;
+}
+
+.ai{
+  background:#334155;
+  border-left:4px solid #10b981;
+  padding:14px;
+  border-radius:12px;
+  white-space:pre-wrap;
+  line-height:1.7;
+  font-size:14px;
+  color:#f8fafc;
+  margin-top:5px;
+  word-wrap:break-word;
+}
+
+@keyframes pulse{
+  0%{
+    opacity:0.4;
+  }
+
+  50%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:0.4;
+  }
+
+  
+}
+
+.welcome-message{
+  text-align:center;
+}
+
+.welcome-message h3{
+  margin-bottom:8px;
+}
+
+.welcome-message p{
+  color:#cbd5e1;
+  line-height:1.6;
+}
+
+.message{
+  margin-bottom:15px;
+  width:100%;
+}
+
+#chatContainer::-webkit-scrollbar{
+  width:6px;
+}
+
+#chatContainer::-webkit-scrollbar-thumb{
+  background:#475569;
+  border-radius:10px;
+}
+
+button:disabled{
+  opacity:0.6;
+  cursor:not-allowed;
+}
+
+.welcome-message{
+  text-align:center;
+  padding:6px;
+}
+
+.welcome-message h3{
+  margin-bottom:4px;
+}
+
+.welcome-message p{
+  margin-top:4px;
+}
